@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C065888821FF5A5000149419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065888721FF5A5000149419 /* AppDelegate.swift */; };
-		C065888A21FF5A5000149419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065888921FF5A5000149419 /* ViewController.swift */; };
 		C065888D21FF5A5000149419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065888B21FF5A5000149419 /* Main.storyboard */; };
 		C065888F21FF5A5500149419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C065888E21FF5A5500149419 /* Assets.xcassets */; };
 		C065889221FF5A5500149419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065889021FF5A5500149419 /* LaunchScreen.storyboard */; };
 		C065889D21FF5A5500149419 /* iOS_Coding_Challenge_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065889C21FF5A5500149419 /* iOS_Coding_Challenge_OneTests.swift */; };
 		C06588A821FF5A5500149419 /* iOS_Coding_Challenge_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06588A721FF5A5500149419 /* iOS_Coding_Challenge_OneUITests.swift */; };
+		C06588B621FF5BB100149419 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06588B521FF5BB100149419 /* Guide.swift */; };
+		C06588BA21FF958E00149419 /* GuideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06588B921FF958E00149419 /* GuideTableViewController.swift */; };
+		C06588BC21FF975900149419 /* GuideCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06588BB21FF975900149419 /* GuideCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		C065888421FF5A5000149419 /* iOS Coding Challenge One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Coding Challenge One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C065888721FF5A5000149419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C065888921FF5A5000149419 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C065888C21FF5A5000149419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C065888E21FF5A5500149419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C065889121FF5A5500149419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		C06588A321FF5A5500149419 /* iOS Coding Challenge OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Coding Challenge OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06588A721FF5A5500149419 /* iOS_Coding_Challenge_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Coding_Challenge_OneUITests.swift; sourceTree = "<group>"; };
 		C06588A921FF5A5500149419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06588B521FF5BB100149419 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		C06588B921FF958E00149419 /* GuideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewController.swift; sourceTree = "<group>"; };
+		C06588BB21FF975900149419 /* GuideCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				C065888721FF5A5000149419 /* AppDelegate.swift */,
-				C065888921FF5A5000149419 /* ViewController.swift */,
+				C06588B521FF5BB100149419 /* Guide.swift */,
+				C06588BB21FF975900149419 /* GuideCollection.swift */,
 				C065888B21FF5A5000149419 /* Main.storyboard */,
+				C06588B921FF958E00149419 /* GuideTableViewController.swift */,
 				C065888E21FF5A5500149419 /* Assets.xcassets */,
 				C065889021FF5A5500149419 /* LaunchScreen.storyboard */,
 				C065889321FF5A5500149419 /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C065888A21FF5A5000149419 /* ViewController.swift in Sources */,
+				C06588BA21FF958E00149419 /* GuideTableViewController.swift in Sources */,
+				C06588B621FF5BB100149419 /* Guide.swift in Sources */,
 				C065888821FF5A5000149419 /* AppDelegate.swift in Sources */,
+				C06588BC21FF975900149419 /* GuideCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
